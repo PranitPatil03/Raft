@@ -1,7 +1,12 @@
+import Navbar from "@/components/Navbar";
+
 const LandingPage = () => {
   return (
     <>
-      <h1>Landing Page</h1>
+      <main className="h-screen">
+        <Navbar></Navbar>
+        <hr className="border-1 border-gray-300 dark:border-gray-700" />
+      </main>
     </>
   );
 };
