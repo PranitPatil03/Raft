@@ -4,6 +4,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { ModeToggle } from "./mode-toggle";
 
 const Navbar = () => {
   return (
@@ -22,6 +23,7 @@ const Navbar = () => {
         <button className="bg-button p-2 px-3 rounded-3xl font-semibold">
           Get Started
         </button>
+        <ModeToggle></ModeToggle>
       </div>
       <div className="flex justify-center md:hidden">
         <Popover>
